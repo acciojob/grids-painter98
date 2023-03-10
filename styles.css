@@ -1,2 +1,33 @@
 
 /* Your CSS Code here. */
+.container{
+	background-color:pink;
+	border:5px solid limegreen;
+	display:flex;
+	flex-flow:row wrap;
+	padding:5px;
+	gap-row:10px;
+}
+.item{
+	background-color:green;
+	border:1px dotted black;
+	height:30vh;
+	justify-content:space-between;
+}
+.item1{
+	width:30%;
+}
+.item2{
+	width:69%;
+	background-color:violet;
+}
+.item3{
+	width:15%;
+	background-color:brown;
+	margin-top:10px;
+}
+.item4,.item5{
+	width:34%;
+	background-color:tomato;
+	margin-top:10px;
+}
